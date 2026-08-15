@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f172a;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    color: #f8fafc;
+    accent-color: #38bdf8;
+}
+h2{
+    color: #ffffff;
+    font-size: 2rem;
+}
+header{
+    padding: 11px;
+    margin: 13px;
+    border: 5px solid;
+    border-radius: 35px;
+    background-color: #6cbce0;
+    text-align: center;
+}
+h1{
+    font-size:3rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: #f8fafc;
+    margin: 10px;
+    border-radius: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar h2{
+    color: #000000;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    background-color: #000000;
+    color: white;
+    transform: rotate3d(1, 1, 1, 45deg);
+    padding: 10px;
+    border-radius: 40px;
+}
+.navbar h2{
+    transition: 0.5s;
+}
+.navbar h2:hover{
+    border-radius: 10px;
+    transform: scale(1.2);
+    cursor:pointer;
+}
+#about{
+    padding: 11px;
+    margin: 13px;
+    border: 5px solid;
+    border-radius: 35px;
+    position: relative;
+}
+#about h2{
+    text-align: center;
+}
+#about img{
+    display: inline;
+}
+#about p{
+    font-size: 30px;
+    display: inline;
+    position: absolute;
+    margin: 23px;
+}
+#skills{
+    padding: 38px;
+    margin: 13px;
+    border: 5px solid;
+    border-radius: 35px;
+}
+#education{
+    padding: 40px;
+    margin: 12px;
+    border: 5px solid;
+    border-radius: 35px
+}
+#timetable{
+    padding: 11px;
+    margin: 13px;
+    border: 5px solid;
+    border-radius: 35px;
+}
+#contact{
+    padding: 11px;
+    margin: 13px;
+    border: 5px solid;
+    border-radius: 35px;
+}
+.unorderlist{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.ulli{
+    border: 1px solid;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+}
+.ulli li{
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+    padding: 7px;
+    margin: 19px;
+    text-align: center;
+}
+ul,li{
+    list-style: none;
+}
+.ulli h3{
+    text-align: center;
+}
+#education ol{
+    display: flex;
+    flex-direction: column;
+}
+#education ol li{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 32px solid;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 21px;
+    margin: 14px;
+}
+#projects{
+    padding: 38px;
+    margin: 13px;
+    border: 5px solid;
+    border-radius: 35px;
+}
+.project_container{
+    
+}
