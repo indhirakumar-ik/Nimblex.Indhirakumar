@@ -156,9 +156,12 @@ ul,li{
     border: 5px solid;
     border-radius: 35px;
 }
-#contact table{
-
+aside{
+    text-align: center;
+    font-size: larger;
 }
-#contact input{
-    
+footer{
+    text-align: center;
+    font-weight: 200;
+    font-family: system-ui;
 }
